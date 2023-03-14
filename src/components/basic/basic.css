@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Manrope', sans-serif;
+    src: url('https://fonts.google.com/specimen/Manrope');
+} 
+@font-face {
+    font-family: 'Manrope Light', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&display=swap');
+}
+
+.background {
+    background-color: hsl(218, 23%, 16%);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.d-flex {
+    display: flex!important;
+    height: 100vh;
+  }
+  
+  .center {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+
+  .advice{
+    color:hsl(150, 100%, 66%);
+    font-family: 'Manrope Light', sans-serif;
+    font-weight:500;
+    font-size:small;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+  }
+
+  .quote{
+    color:hsl(193, 38%, 86%);
+    font-family: 'Manrope', sans-serif;
+    font-weight:800;
+    max-width: 95%;
+    text-align: center;
+  }
+
+  .button{
+    margin-top:-27.5px;
+    width:55px;
+    height:55px;
+    border-radius: 40px;
+    border-color:hsl(150, 100%, 66%);
+    background-color:hsl(150, 100%, 66%);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .dice{
+    padding-top:15px;
+  }
+
+  
+  @media screen and (min-width: 427px) {
+
+    .box{
+        background-color: hsl(217, 19%, 24%);
+        min-height:30vh;
+        min-width:40vw;
+        max-width:60vw;
+        border-radius:10px;
+      }
+      
+      .button:hover{
+        box-shadow: 0 0 20px 10px hsla(150, 100%, 66%, 0.295);
+      }
+
+    .dividerMobile{
+      display:none;
+    }
+    .divider{
+      position:relative;
+      margin-bottom:10%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+
+    .box{
+        background-color: hsl(217, 19%, 24%);
+        min-height:50vh;
+        min-width:90vw;
+        border-radius:10px;
+    }
+    .dividerDesktop{
+        display:none;
+    }
+    .divider{
+      position:relative;
+      margin-bottom:-50px;
+      align-items:center;
+      justify-content:center;
+      text-align: center;
+    }
+  }

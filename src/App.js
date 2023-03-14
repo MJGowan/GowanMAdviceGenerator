@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+//Madeline Gowan
+//3/14/2023
+//Advice Generator
+//With the assets given to you remake the following Project - Advice Generator  
+//Goal is to recreate this challenge as close to the design as possible and having it function properly
+//Peer reviewed by 
+
 import './App.css';
+import Screen from './components/basic/basic';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Screen/>
     </div>
   );
 }
