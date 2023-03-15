@@ -27,8 +27,6 @@
     text-align: center;
   }
 
-
-
   .advice{
     color:hsl(150, 100%, 66%);
     font-family: 'Manrope Light', sans-serif;
@@ -41,8 +39,8 @@
   .quote{
     color:hsl(193, 38%, 86%);
     font-family: 'Manrope', sans-serif;
-    font-weight:800;
-    max-width: 95%;
+    font-weight:600;
+    font-size:25px;
     text-align: center;
   }
 
@@ -66,8 +64,7 @@
     .box{
         background-color: hsl(217, 19%, 24%);
         min-height:30vh;
-        min-width:40vw;
-        max-width:60vw;
+        width:40vw;
         border-radius:10px;
       }
       
@@ -92,7 +89,7 @@
     .box{
         background-color: hsl(217, 19%, 24%);
         min-height:50vh;
-        min-width:90vw;
+        width:85vw;
         border-radius:10px;
     }
     .dividerDesktop{
@@ -100,7 +97,7 @@
     }
     .divider{
       position:relative;
-      margin-bottom:-50px;
+      margin-bottom:15%;
       align-items:center;
       justify-content:center;
       text-align: center;

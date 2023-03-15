@@ -24,7 +24,7 @@ export default function Screen() {
                             <br />
                             <p className='advice' onChange={e => setId(e.target.value)}>ADVICE # {id}</p>
                             <br />
-                            <p className='quote' onChange={e => setAdvice(e.target.value)}>{advice}</p>
+                            <p className='quote' onChange={e => setAdvice(e.target.value)}>"{advice}"</p>
                             <br/>
                         <Container fluid>
                             <svg className='dividerDesktop divider' width="444" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z" /><g transform="translate(212)" fill="#CEE3E9"><rect width="6" height="16" rx="3" /><rect x="14" width="6" height="16" rx="3" /></g></g></svg>
